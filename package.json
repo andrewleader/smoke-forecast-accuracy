@@ -1,0 +1,18 @@
+{
+  "name": "smoke-forecast-accuracy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "collect:forecasts": "tsx --env-file=.env scripts/collectForecasts.ts",
+    "collect:actuals": "tsx --env-file=.env scripts/collectActuals.ts",
+    "score": "tsx scripts/score.ts",
+    "run:daily": "npm run collect:forecasts && npm run collect:actuals && npm run score",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

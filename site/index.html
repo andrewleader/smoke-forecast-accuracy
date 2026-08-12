@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smoke Forecast Accuracy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header><p class="eyebrow">Forecast verification</p><h1>Smoke Forecast Accuracy</h1><p>How closely each provider's daily smoke forecast matched observed afternoon AQI.</p><p id="updated">Loading results...</p></header>
+    <section id="results" aria-live="polite"></section>
+  </main>
+  <template id="source-template"><article><h2></h2><table><thead><tr><th>Lead day</th><th>MAE</th><th>Bias</th><th>Within tolerance</th><th>Samples</th></tr></thead><tbody></tbody></table></article></template>
+  <script src="main.js"></script>
+</body>
+</html>
