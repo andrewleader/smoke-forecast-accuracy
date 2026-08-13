@@ -1,0 +1,802 @@
+[
+  {
+    "sensorId": "openaq-1369252",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 153
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 154
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 19
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 114
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 128
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 91
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-1369252",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 153
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 154
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 19
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 114
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 128
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 91
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-2072",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 134
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 114
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 164
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 131
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 264
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 81
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 161
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 186
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 158
+  },
+  {
+    "sensorId": "openaq-6008",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 125
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 123
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 99
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 134
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 199
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 61
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 93
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 86
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 75
+  },
+  {
+    "sensorId": "openaq-1376",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 64
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 123
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 99
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 134
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 199
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 61
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 93
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 86
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 75
+  },
+  {
+    "sensorId": "openaq-1839",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 64
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 155
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 248
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 6
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 66
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 139
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 38
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 58
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 138
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 177
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 6
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 44
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 45
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 44
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 53
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 75
+  },
+  {
+    "sensorId": "openaq-8794",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 75
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 0
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 2
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 1
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 1
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 198
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 298
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 25
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 31
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 64
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 103
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 16
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 14
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 16
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 9
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 41
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 2
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 75
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-221664",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 12
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "firesmoke",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 7
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 16
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 11
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 19
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "pirate-weather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 5
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-13",
+    "leadDays": 1,
+    "forecastAqi": 86
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-14",
+    "leadDays": 2,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-15",
+    "leadDays": 3,
+    "forecastAqi": 69
+  },
+  {
+    "sensorId": "openaq-282",
+    "source": "openweather",
+    "issuedDate": "2026-08-12",
+    "targetDate": "2026-08-16",
+    "leadDays": 4,
+    "forecastAqi": 69
+  }
+]
