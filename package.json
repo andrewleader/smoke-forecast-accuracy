@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "collect:forecasts": "tsx --env-file=.env scripts/collectForecasts.ts",
-    "collect:actuals": "tsx --env-file=.env scripts/collectActuals.ts",
+    "collect:forecasts": "tsx scripts/collectForecasts.ts",
+    "collect:actuals": "tsx scripts/collectActuals.ts",
     "score": "tsx scripts/score.ts",
     "run:daily": "npm run collect:forecasts && npm run collect:actuals && npm run score",
     "check": "tsc --noEmit"
