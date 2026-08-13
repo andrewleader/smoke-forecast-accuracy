@@ -2,8 +2,8 @@ name: Collect and publish smoke accuracy
 
 on:
   schedule:
-    # 7pm Pacific daylight time / 6pm Pacific standard time. GitHub cron uses UTC.
-    - cron: "0 2 * * *"
+    # 7pm Pacific standard time / 6pm Pacific daylight time. GitHub cron uses UTC.
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
