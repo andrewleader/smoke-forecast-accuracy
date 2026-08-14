@@ -2,8 +2,8 @@ name: Collect and publish smoke accuracy
 
 on:
   schedule:
-    #  7:07pm Pacific time.
-    - cron: "7 7 * * *"
+    #  6:07pm Pacific time.
+    - cron: "7 18 * * *"
       timezone: America/Los_Angeles
   workflow_dispatch:
 
