@@ -91,4 +91,35 @@ The initial roster contains ten fixed sensors across Washington, British Columbi
 | Pirate Weather | Hourly `smoke` PM2.5 forecast |
 | OpenWeather | Hourly five-level air-pollution AQI category |
 
-See [PROPOSAL.md](PROPOSAL.md) for the design rationale and methodology.
+## Adding a Sensor
+
+1. Go to https://explore.openaq.org/
+2. Click on a circle on the map (ensure a PM2.5 graph shows up)
+3. Click "Show Details"
+4. Copy the **Location ID** from the URL, ex `https://explore.openaq.org/locations/1398`
+5. Open a HTTP request tool like Insomnia, and send a GET request to the location API, like `https://api.openaq.org/v3/locations/1398`, including an `X-API-Key` header with a value of your OpenAQ API key.
+6. In the JSON response, identify the PM2.5 sensor, that's the **Sensor ID**. You'll also need the **Coordinates**.
+
+```json
+    {
+        "id": 13419138,
+        "name": "pm25 µg/m³",
+        "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "µg/m³",
+            "displayName": "PM2.5"
+        }
+    }
+],
+"coordinates": {
+    "latitude": 43.577603,
+    "longitude": -116.178156
+},
+```
+
+Finally, add this to [config\sensors.json](./config/sensors.json).
+
+```json
+{ "id": "openaq-1398", "locationId": 1398, "sensorId": 13419138, "label": "Example, WA", "lat": 43.577603, "lng": -116.178156, "timeZone": "America/Denver" }
+```

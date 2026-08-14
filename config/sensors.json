@@ -8,5 +8,7 @@
   { "id": "openaq-8794", "locationId": 8794, "sensorId": 25641, "label": "Squamish, BC", "lat": 49.70516, "lng": -123.15133, "timeZone": "America/Vancouver" },
   { "id": "openaq-5592579", "locationId": 5592579, "sensorId": 13980422, "label": "Banff, AB", "lat": 51.19959, "lng": -115.61187, "timeZone": "America/Edmonton" },
   { "id": "openaq-221664", "locationId": 221664, "sensorId": 1288382, "label": "Jackson, WY", "lat": 43.457764, "lng": -110.797994, "timeZone": "America/Denver" },
-  { "id": "openaq-282", "locationId": 282, "sensorId": 469, "label": "Pinedale, WY", "lat": 42.8698, "lng": -109.8708, "timeZone": "America/Denver" }
+  { "id": "openaq-282", "locationId": 282, "sensorId": 469, "label": "Pinedale, WY", "lat": 42.8698, "lng": -109.8708, "timeZone": "America/Denver" },
+  { "id": "openaq-6464811", "locationId": 6464811, "sensorId": 17071158, "label": "Mammoth Lakes, CA", "lat": 37.6482, "lng": -118.96746, "timeZone": "America/Los_Angeles" },
+  { "id": "openaq-8674", "locationId": 8674, "sensorId": 25160, "label": "Minnesota (Cass Lake)", "lat": 47.38443, "lng": -94.60166, "timeZone": "America/Chicago" }
 ]
