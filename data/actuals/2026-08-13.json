@@ -1,0 +1,44 @@
+[
+  {
+    "sensorId": "openaq-1369252",
+    "date": "2026-08-13",
+    "actualAqi": 62,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-6008",
+    "date": "2026-08-13",
+    "actualAqi": 173,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-1376",
+    "date": "2026-08-13",
+    "actualAqi": 173,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "date": "2026-08-13",
+    "actualAqi": 48,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-5592579",
+    "date": "2026-08-13",
+    "actualAqi": 14,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-221664",
+    "date": "2026-08-13",
+    "actualAqi": 36,
+    "hoursAveraged": 8
+  },
+  {
+    "sensorId": "openaq-282",
+    "date": "2026-08-13",
+    "actualAqi": 35,
+    "hoursAveraged": 8
+  }
+]

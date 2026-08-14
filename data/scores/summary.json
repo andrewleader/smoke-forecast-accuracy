@@ -1,4 +1,29 @@
 {
-  "generatedAt": "2026-08-14T02:57:06.763Z",
-  "sources": {}
+  "generatedAt": "2026-08-14T03:12:01.159Z",
+  "sources": {
+    "firesmoke": {
+      "1": {
+        "count": 7,
+        "mae": 49.1,
+        "biasAqi": 7.4,
+        "withinTolerancePct": 42.9
+      }
+    },
+    "pirate-weather": {
+      "1": {
+        "count": 7,
+        "mae": 26.4,
+        "biasAqi": -26.4,
+        "withinTolerancePct": 71.4
+      }
+    },
+    "openweather": {
+      "1": {
+        "count": 7,
+        "mae": 36,
+        "biasAqi": -4.3,
+        "withinTolerancePct": 57.1
+      }
+    }
+  }
 }
