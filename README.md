@@ -31,6 +31,7 @@ OPENWEATHER_API_KEY=
 ```
 
 `.env` is ignored by git. Do not commit API keys.
+The local collection commands load this file automatically. In GitHub Actions, the same variables are supplied from repository secrets.
 
 ## Commands
 
