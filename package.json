@@ -8,10 +8,13 @@
     "collect:actuals": "node --env-file-if-exists=.env --import tsx scripts/collectActuals.ts",
     "score": "tsx scripts/score.ts",
     "run:daily": "npm run collect:forecasts && npm run collect:actuals && npm run score",
+    "preview:prepare": "tsx scripts/preparePreview.ts",
+    "preview": "npm run preview:prepare && serve public --listen 4173",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "serve": "^14.2.6",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   }

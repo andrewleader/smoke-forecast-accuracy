@@ -8,7 +8,7 @@
 </head>
 <body>
   <main>
-    <header><p class="eyebrow">Forecast verification</p><h1>Smoke Forecast Accuracy</h1><p>How closely each provider's daily smoke forecast matched observed afternoon AQI.</p><p id="updated">Loading results...</p></header>
+    <header><p class="eyebrow">Forecast verification</p><h1>Smoke Forecast Accuracy</h1><p>How closely each provider's daily smoke forecast matched observed afternoon AQI.</p><p><a class="page-link" href="details.html">Inspect a forecast day</a></p><p id="updated">Loading results...</p></header>
     <section class="metric-guide" aria-labelledby="metric-guide-heading">
       <h2 id="metric-guide-heading">Reading the results</h2>
       <dl>
@@ -20,7 +20,7 @@
     </section>
     <section id="results" aria-live="polite"></section>
   </main>
-  <template id="source-template"><article><h2></h2><section class="score-group"><h3>Overall accuracy</h3><table><thead><tr><th>Forecast lead</th><th>Average error</th><th>Forecast tendency</th><th>Close enough</th><th>Comparisons</th></tr></thead><tbody></tbody></table></section><section class="location-scores"><h3>Accuracy by location</h3><div></div></section></article></template>
+  <template id="source-template"><article><h2></h2><section class="score-group"><h3>Overall accuracy</h3><table><thead><tr><th>Forecast lead</th><th>Average error</th><th>Forecast tendency</th><th>Close enough</th><th>Comparisons</th></tr></thead><tbody></tbody></table></section><details class="location-scores"><summary>Accuracy by location</summary><div></div></details></article></template>
   <template id="location-template"><section class="location-score"><h4></h4><table><thead><tr><th>Forecast lead</th><th>Average error</th><th>Forecast tendency</th><th>Close enough</th><th>Comparisons</th></tr></thead><tbody></tbody></table></section></template>
   <script src="main.js?v=location-scores-1"></script>
 </body>

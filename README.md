@@ -48,6 +48,9 @@ npm run score
 # Run the full daily sequence.
 npm run run:daily
 
+# Stage the site and data as GitHub Pages does, then serve it at http://localhost:4173.
+npm run preview
+
 # Type-check the TypeScript scripts.
 npm run check
 ```

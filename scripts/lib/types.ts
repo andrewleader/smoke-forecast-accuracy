@@ -47,3 +47,20 @@ export interface ScoreSummary {
   generatedAt: string;
   sources: Partial<Record<Source, SourceScores>>;
 }
+
+export interface ForecastDayDetail {
+  issuedDate: string;
+  actualDate: string;
+  rows: Array<{
+    sensorId: string;
+    label: string;
+    actualAqi: number;
+    hoursAveraged: number;
+    forecasts: Partial<Record<Source, number>>;
+  }>;
+}
+
+export interface ForecastDaySummary {
+  generatedAt: string;
+  days: ForecastDayDetail[];
+}

@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-08-14T03:31:05.022Z",
+  "days": [
+    {
+      "issuedDate": "2026-08-12",
+      "actualDate": "2026-08-13",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 14,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 0,
+            "pirate-weather": 1,
+            "openweather": 25
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 62,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 153,
+            "pirate-weather": 19,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 173,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 134,
+            "pirate-weather": 164,
+            "openweather": 161
+          }
+        },
+        {
+          "sensorId": "openaq-221664",
+          "label": "Jackson, WY",
+          "actualAqi": 36,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 16,
+            "pirate-weather": 16,
+            "openweather": 75
+          }
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 173,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 123,
+            "pirate-weather": 134,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 35,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 12,
+            "pirate-weather": 16,
+            "openweather": 86
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 48,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 155,
+            "pirate-weather": 6,
+            "openweather": 58
+          }
+        }
+      ]
+    }
+  ]
+}

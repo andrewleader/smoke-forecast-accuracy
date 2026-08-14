@@ -1,7 +1,7 @@
 import sensors from "../config/sensors.json" with { type: "json" };
 import { sameAqiCategory } from "./lib/aqi.js";
 import { dataPath, readJsonDirectory, writeJson } from "./lib/storage.js";
-import type { ActualRecord, ForecastRecord, ScoreBucket, ScoreSummary, Source } from "./lib/types.js";
+import type { ActualRecord, ForecastDaySummary, ForecastRecord, ScoreBucket, ScoreSummary, Source } from "./lib/types.js";
 
 const forecastFiles = await readJsonDirectory<ForecastRecord[]>(dataPath("forecasts"));
 const actualFiles = await readJsonDirectory<ActualRecord[]>(dataPath("actuals"));
@@ -30,6 +30,30 @@ for (const [key, comparisons] of locationGroups) {
   location.leadDays[lead] = score(comparisons);
 }
 await writeJson(dataPath("scores", "summary.json"), { generatedAt: new Date().toISOString(), sources } satisfies ScoreSummary);
+
+const dayKeys = new Set<string>();
+for (const forecast of forecastFiles.flat()) {
+  if (actuals.has(`${forecast.sensorId}:${forecast.targetDate}`)) dayKeys.add(`${forecast.issuedDate}:${forecast.targetDate}`);
+}
+const days: ForecastDaySummary["days"] = [];
+for (const key of [...dayKeys].sort().reverse()) {
+  const [issuedDate, actualDate] = key.split(":");
+  const matchingForecasts = forecastFiles.flat().filter((forecast) => forecast.issuedDate === issuedDate && forecast.targetDate === actualDate);
+  const rows = actualFiles.flat()
+    .filter((actual) => actual.date === actualDate)
+    .map((actual) => ({
+      sensorId: actual.sensorId,
+      label: sensorLabels.get(actual.sensorId) ?? actual.sensorId,
+      actualAqi: actual.actualAqi,
+      hoursAveraged: actual.hoursAveraged,
+      forecasts: Object.fromEntries(matchingForecasts
+        .filter((forecast) => forecast.sensorId === actual.sensorId)
+        .map((forecast) => [forecast.source, forecast.forecastAqi])) as Partial<Record<Source, number>>
+    }))
+    .sort((left, right) => left.label.localeCompare(right.label));
+  days.push({ issuedDate, actualDate, rows });
+}
+await writeJson(dataPath("details", "forecast-days.json"), { generatedAt: new Date().toISOString(), days } satisfies ForecastDaySummary);
 
 function score(comparisons: Array<{ forecast: number; actual: number }>): ScoreBucket {
   const errors = comparisons.map(({ forecast, actual }) => forecast - actual);

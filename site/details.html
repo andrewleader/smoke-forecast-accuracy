@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forecast Day Detail | Smoke Forecast Accuracy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header><p class="eyebrow">Forecast verification</p><h1>Forecast Day Detail</h1><p>Compare each provider's forecast with the observed afternoon AQI at every available location.</p><p><a class="page-link" href="index.html">Back to accuracy summary</a></p></header>
+    <section class="day-picker" aria-label="Choose forecast results">
+      <label>Forecast obtained date<select id="issued-date"></select></label>
+      <label>Actual results date<select id="actual-date"></select></label>
+    </section>
+    <p class="aqi-legend"><span class="aqi-swatch aqi-good"></span>Good <span class="aqi-swatch aqi-moderate"></span>Moderate <span class="aqi-swatch aqi-sensitive"></span>Unhealthy for sensitive groups <span class="aqi-swatch aqi-unhealthy"></span>Unhealthy <span class="aqi-swatch aqi-very-unhealthy"></span>Very unhealthy <span class="aqi-swatch aqi-hazardous"></span>Hazardous</p>
+    <p id="detail-status" aria-live="polite">Loading forecast days...</p>
+    <section class="detail-table" aria-live="polite">
+      <table>
+        <thead><tr><th>Location</th><th>Observed AQI</th><th>Readings</th><th>FireSmoke forecast</th><th>Pirate Weather forecast</th><th>OpenWeather forecast</th></tr></thead>
+        <tbody id="detail-rows"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="details.js?v=forecast-day-detail-2"></script>
+</body>
+</html>
