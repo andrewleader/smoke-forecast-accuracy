@@ -33,7 +33,17 @@ export interface ScoreBucket {
   biasAqi: number;
 }
 
+export interface LocationScore {
+  label: string;
+  leadDays: Record<string, ScoreBucket>;
+}
+
+export interface SourceScores {
+  overall: Record<string, ScoreBucket>;
+  locations: Record<string, LocationScore>;
+}
+
 export interface ScoreSummary {
   generatedAt: string;
-  sources: Partial<Record<Source, Record<string, ScoreBucket>>>;
+  sources: Partial<Record<Source, SourceScores>>;
 }

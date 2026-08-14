@@ -1,5 +1,5 @@
 import sensors from "../config/sensors.json" with { type: "json" };
-import { addDays, localDate } from "./lib/dates.js";
+import { localDate } from "./lib/dates.js";
 import { dailyAverages, fetchSource } from "./lib/providers.js";
 import { dataPath, readJson, writeJson } from "./lib/storage.js";
 import type { ForecastRecord, Source } from "./lib/types.js";
@@ -13,6 +13,10 @@ const records = [...existing];
 
 for (const sensor of sensors) {
   for (const source of ["firesmoke", "pirate-weather", "openweather"] as Source[]) {
+    if (existing.some((record) => record.sensorId === sensor.id && record.source === source && record.issuedDate === issuedDate)) {
+      console.log(`Skipping ${source} for ${sensor.label}: forecasts already collected for ${issuedDate}`);
+      continue;
+    }
     try {
       const averages = dailyAverages(await fetchSource(source, sensor), sensor.timeZone);
       for (const [targetDate, forecastAqi] of averages) {

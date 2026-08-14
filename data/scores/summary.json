@@ -1,28 +1,271 @@
 {
-  "generatedAt": "2026-08-14T03:12:01.159Z",
+  "generatedAt": "2026-08-14T03:18:58.868Z",
   "sources": {
     "firesmoke": {
-      "1": {
-        "count": 7,
-        "mae": 49.1,
-        "biasAqi": 7.4,
-        "withinTolerancePct": 42.9
+      "overall": {
+        "1": {
+          "count": 7,
+          "mae": 49.1,
+          "biasAqi": 7.4,
+          "withinTolerancePct": 42.9
+        }
+      },
+      "locations": {
+        "openaq-1369252": {
+          "label": "Bellevue, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 91,
+              "biasAqi": 91,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-6008": {
+          "label": "Cle Elum, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 39,
+              "biasAqi": -39,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-1376": {
+          "label": "Leavenworth, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 50,
+              "biasAqi": -50,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-2836782": {
+          "label": "Vancouver, BC",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 107,
+              "biasAqi": 107,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-5592579": {
+          "label": "Banff, AB",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 14,
+              "biasAqi": -14,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-221664": {
+          "label": "Jackson, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 20,
+              "biasAqi": -20,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-282": {
+          "label": "Pinedale, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 23,
+              "biasAqi": -23,
+              "withinTolerancePct": 100
+            }
+          }
+        }
       }
     },
     "pirate-weather": {
-      "1": {
-        "count": 7,
-        "mae": 26.4,
-        "biasAqi": -26.4,
-        "withinTolerancePct": 71.4
+      "overall": {
+        "1": {
+          "count": 7,
+          "mae": 26.4,
+          "biasAqi": -26.4,
+          "withinTolerancePct": 71.4
+        }
+      },
+      "locations": {
+        "openaq-1369252": {
+          "label": "Bellevue, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 43,
+              "biasAqi": -43,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-6008": {
+          "label": "Cle Elum, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 9,
+              "biasAqi": -9,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-1376": {
+          "label": "Leavenworth, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 39,
+              "biasAqi": -39,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-2836782": {
+          "label": "Vancouver, BC",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 42,
+              "biasAqi": -42,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-5592579": {
+          "label": "Banff, AB",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 13,
+              "biasAqi": -13,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-221664": {
+          "label": "Jackson, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 20,
+              "biasAqi": -20,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-282": {
+          "label": "Pinedale, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 19,
+              "biasAqi": -19,
+              "withinTolerancePct": 100
+            }
+          }
+        }
       }
     },
     "openweather": {
-      "1": {
-        "count": 7,
-        "mae": 36,
-        "biasAqi": -4.3,
-        "withinTolerancePct": 57.1
+      "overall": {
+        "1": {
+          "count": 7,
+          "mae": 36,
+          "biasAqi": -4.3,
+          "withinTolerancePct": 57.1
+        }
+      },
+      "locations": {
+        "openaq-1369252": {
+          "label": "Bellevue, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 9,
+              "biasAqi": -9,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-6008": {
+          "label": "Cle Elum, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 12,
+              "biasAqi": -12,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-1376": {
+          "label": "Leavenworth, WA",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 120,
+              "biasAqi": -120,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-2836782": {
+          "label": "Vancouver, BC",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 10,
+              "biasAqi": 10,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-5592579": {
+          "label": "Banff, AB",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 11,
+              "biasAqi": 11,
+              "withinTolerancePct": 100
+            }
+          }
+        },
+        "openaq-221664": {
+          "label": "Jackson, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 39,
+              "biasAqi": 39,
+              "withinTolerancePct": 0
+            }
+          }
+        },
+        "openaq-282": {
+          "label": "Pinedale, WY",
+          "leadDays": {
+            "1": {
+              "count": 1,
+              "mae": 51,
+              "biasAqi": 51,
+              "withinTolerancePct": 0
+            }
+          }
+        }
       }
     }
   }

@@ -9,9 +9,19 @@
 <body>
   <main>
     <header><p class="eyebrow">Forecast verification</p><h1>Smoke Forecast Accuracy</h1><p>How closely each provider's daily smoke forecast matched observed afternoon AQI.</p><p id="updated">Loading results...</p></header>
+    <section class="metric-guide" aria-labelledby="metric-guide-heading">
+      <h2 id="metric-guide-heading">Reading the results</h2>
+      <dl>
+        <div><dt>Average error</dt><dd>The typical difference between a forecast and the observed AQI. Lower is better.</dd></div>
+        <div><dt>Forecast tendency</dt><dd>Whether forecasts generally run too high (+) or too low (-), measured in AQI points.</dd></div>
+        <div><dt>Close enough</dt><dd>The share of forecasts within 20 AQI points of the observed value, or in the same AQI category.</dd></div>
+        <div><dt>Comparisons</dt><dd>The number of forecast and observation pairs included in the result.</dd></div>
+      </dl>
+    </section>
     <section id="results" aria-live="polite"></section>
   </main>
-  <template id="source-template"><article><h2></h2><table><thead><tr><th>Lead day</th><th>MAE</th><th>Bias</th><th>Within tolerance</th><th>Samples</th></tr></thead><tbody></tbody></table></article></template>
+  <template id="source-template"><article><h2></h2><section class="score-group"><h3>Overall accuracy</h3><table><thead><tr><th>Forecast lead</th><th>Average error</th><th>Forecast tendency</th><th>Close enough</th><th>Comparisons</th></tr></thead><tbody></tbody></table></section><section class="location-scores"><h3>Accuracy by location</h3><div></div></section></article></template>
+  <template id="location-template"><section class="location-score"><h4></h4><table><thead><tr><th>Forecast lead</th><th>Average error</th><th>Forecast tendency</th><th>Close enough</th><th>Comparisons</th></tr></thead><tbody></tbody></table></section></template>
   <script src="main.js"></script>
 </body>
 </html>
