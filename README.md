@@ -67,7 +67,7 @@ Forecast and actual AQI values are generated from PM2.5 with the EPA AQI breakpo
 
 ## Scheduled Deployment
 
-[daily.yml](.github/workflows/daily.yml) runs at `02:00 UTC`, which is 7pm Pacific daylight time and 6pm Pacific standard time. GitHub Actions cron schedules use UTC; both times are after the 9am-5pm local observation window.
+ [daily.yml](.github/workflows/daily.yml) runs at `03:00 UTC`, which is 8pm Pacific daylight time and 7pm Pacific standard time. GitHub Actions cron schedules use UTC; both times are after the 9am-5pm local observation window.
 
 Add these repository secrets before running the workflow:
 

@@ -14,7 +14,7 @@ const actualKeys = new Set(actuals.map((actual) => `${actual.sensorId}:${actual.
 for (const sensor of sensors) {
   const todayLocal = localDate(today, sensor.timeZone);
   const dates = [...new Set(forecasts
-    .filter((forecast) => forecast.sensorId === sensor.id && forecast.targetDate < todayLocal && !actualKeys.has(`${sensor.id}:${forecast.targetDate}`))
+    .filter((forecast) => forecast.sensorId === sensor.id && forecast.targetDate <= todayLocal && !actualKeys.has(`${sensor.id}:${forecast.targetDate}`))
     .map((forecast) => forecast.targetDate))].sort().reverse();
   const date = dates[0];
   if (!date) continue;
