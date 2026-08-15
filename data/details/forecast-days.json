@@ -1,6 +1,194 @@
 {
-  "generatedAt": "2026-08-14T15:02:10.460Z",
+  "generatedAt": "2026-08-15T02:18:27.776Z",
   "days": [
+    {
+      "issuedDate": "2026-08-13",
+      "actualDate": "2026-08-14",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 9,
+            "pirate-weather": 1,
+            "openweather": 36
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 69,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 143,
+            "pirate-weather": 44,
+            "openweather": 42
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 96,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 80,
+            "pirate-weather": 46,
+            "openweather": 103
+          }
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 96,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 92,
+            "pirate-weather": 79,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 63,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 143,
+            "pirate-weather": 44,
+            "openweather": 42
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 26,
+            "pirate-weather": 8,
+            "openweather": 75
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 87,
+          "hoursAveraged": 7,
+          "forecasts": {
+            "firesmoke": 72,
+            "pirate-weather": 69,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 70,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 134,
+            "pirate-weather": 32,
+            "openweather": 53
+          }
+        }
+      ]
+    },
+    {
+      "issuedDate": "2026-08-12",
+      "actualDate": "2026-08-14",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 2,
+            "pirate-weather": 1,
+            "openweather": 31
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 69,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 154,
+            "pirate-weather": 114,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 96,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 114,
+            "pirate-weather": 131,
+            "openweather": 186
+          }
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 96,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 99,
+            "pirate-weather": 199,
+            "openweather": 86
+          }
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 63,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 154,
+            "pirate-weather": 114,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 7,
+            "pirate-weather": 11,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 87,
+          "hoursAveraged": 7,
+          "forecasts": {
+            "firesmoke": 177,
+            "pirate-weather": 44,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 70,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 248,
+            "pirate-weather": 66,
+            "openweather": 53
+          }
+        }
+      ]
+    },
     {
       "issuedDate": "2026-08-12",
       "actualDate": "2026-08-13",
