@@ -1,6 +1,274 @@
 {
-  "generatedAt": "2026-08-16T02:34:01.752Z",
+  "generatedAt": "2026-08-17T02:24:33.854Z",
   "days": [
+    {
+      "issuedDate": "2026-08-15",
+      "actualDate": "2026-08-16",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 100,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 36,
+            "pirate-weather": 46,
+            "openweather": 64
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 21,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 81,
+            "pirate-weather": 13,
+            "openweather": 47
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 69,
+            "pirate-weather": 30,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-27230",
+          "label": "Darrington, WA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 73,
+            "pirate-weather": 21,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 59,
+            "pirate-weather": 13,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-6464811",
+          "label": "Mammoth Lakes, CA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 0,
+            "pirate-weather": 2,
+            "openweather": 108
+          }
+        },
+        {
+          "sensorId": "openaq-8674",
+          "label": "Minnesota (Cass Lake)",
+          "actualAqi": 10,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 9,
+            "pirate-weather": 4,
+            "openweather": 36
+          }
+        },
+        {
+          "sensorId": "openaq-7908",
+          "label": "Mt Hood Skibowl, OR",
+          "actualAqi": 29,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 32,
+            "pirate-weather": 10,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 25,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 81,
+            "pirate-weather": 13,
+            "openweather": 47
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 4,
+            "pirate-weather": 1,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 59,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 43,
+            "pirate-weather": 36,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 53,
+            "pirate-weather": 22,
+            "openweather": 53
+          }
+        }
+      ]
+    },
+    {
+      "issuedDate": "2026-08-14",
+      "actualDate": "2026-08-16",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 100,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 139,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 21,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 41,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 106,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-27230",
+          "label": "Darrington, WA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 14,
+            "pirate-weather": 21,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 40,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-6464811",
+          "label": "Mammoth Lakes, CA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 0,
+            "pirate-weather": 2,
+            "openweather": 108
+          }
+        },
+        {
+          "sensorId": "openaq-8674",
+          "label": "Minnesota (Cass Lake)",
+          "actualAqi": 10,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 3,
+            "pirate-weather": 3,
+            "openweather": 25
+          }
+        },
+        {
+          "sensorId": "openaq-7908",
+          "label": "Mt Hood Skibowl, OR",
+          "actualAqi": 29,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "firesmoke": 41,
+            "pirate-weather": 60,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 25,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 41,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 4,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 59,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 68,
+            "openweather": 64
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 119,
+            "openweather": 58
+          }
+        }
+      ]
+    },
     {
       "issuedDate": "2026-08-14",
       "actualDate": "2026-08-15",
@@ -135,6 +403,120 @@
             "firesmoke": 49,
             "pirate-weather": 28,
             "openweather": 25
+          }
+        }
+      ]
+    },
+    {
+      "issuedDate": "2026-08-13",
+      "actualDate": "2026-08-16",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 100,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 237,
+            "openweather": 103
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 21,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 106,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 178,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-27230",
+          "label": "Darrington, WA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 98,
+            "openweather": 75
+          }
+        },
+        {
+          "sensorId": "openaq-6464811",
+          "label": "Mammoth Lakes, CA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-8674",
+          "label": "Minnesota (Cass Lake)",
+          "actualAqi": 10,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-7908",
+          "label": "Mt Hood Skibowl, OR",
+          "actualAqi": 29,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 25,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 106,
+            "openweather": 53
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 2,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 59,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 71,
+            "openweather": 75
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 91,
+            "openweather": 58
           }
         }
       ]
@@ -351,6 +733,120 @@
             "firesmoke": 134,
             "pirate-weather": 32,
             "openweather": 53
+          }
+        }
+      ]
+    },
+    {
+      "issuedDate": "2026-08-12",
+      "actualDate": "2026-08-16",
+      "rows": [
+        {
+          "sensorId": "openaq-5592579",
+          "label": "Banff, AB",
+          "actualAqi": 100,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 298,
+            "openweather": 103
+          }
+        },
+        {
+          "sensorId": "openaq-1369252",
+          "label": "Bellevue, WA",
+          "actualAqi": 21,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 91,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-6008",
+          "label": "Cle Elum, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 81,
+            "openweather": 125
+          }
+        },
+        {
+          "sensorId": "openaq-27230",
+          "label": "Darrington, WA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-1376",
+          "label": "Leavenworth, WA",
+          "actualAqi": 65,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 93,
+            "openweather": 64
+          }
+        },
+        {
+          "sensorId": "openaq-6464811",
+          "label": "Mammoth Lakes, CA",
+          "actualAqi": 13,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-8674",
+          "label": "Minnesota (Cass Lake)",
+          "actualAqi": 10,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-7908",
+          "label": "Mt Hood Skibowl, OR",
+          "actualAqi": 29,
+          "hoursAveraged": 8,
+          "forecasts": {}
+        },
+        {
+          "sensorId": "openaq-2072",
+          "label": "North Bend, WA",
+          "actualAqi": 25,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 91,
+            "openweather": 58
+          }
+        },
+        {
+          "sensorId": "openaq-282",
+          "label": "Pinedale, WY",
+          "actualAqi": 0,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 5,
+            "openweather": 69
+          }
+        },
+        {
+          "sensorId": "openaq-8794",
+          "label": "Squamish, BC",
+          "actualAqi": 59,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 44,
+            "openweather": 75
+          }
+        },
+        {
+          "sensorId": "openaq-2836782",
+          "label": "Vancouver, BC",
+          "actualAqi": 23,
+          "hoursAveraged": 8,
+          "forecasts": {
+            "pirate-weather": 38,
+            "openweather": 58
           }
         }
       ]
