@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-18T02:20:26.500Z",
+  "generatedAt": "2026-08-19T02:22:39.635Z",
   "sources": {
     "firesmoke": {
       "overall": {
         "1": {
-          "count": 50,
-          "mae": 30.1,
-          "biasAqi": 9.9,
-          "withinTolerancePct": 60
+          "count": 60,
+          "mae": 28.3,
+          "biasAqi": 7.1,
+          "withinTolerancePct": 65
         },
         "2": {
-          "count": 31,
-          "mae": 33.9,
-          "biasAqi": 21.2,
-          "withinTolerancePct": 64.5
+          "count": 41,
+          "mae": 30.7,
+          "biasAqi": 13.8,
+          "withinTolerancePct": 68.3
         }
       },
       "locations": {
@@ -21,16 +21,16 @@
           "label": "Bellevue, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 54.2,
-              "biasAqi": 54.2,
-              "withinTolerancePct": 20
+              "count": 6,
+              "mae": 47.8,
+              "biasAqi": 42.5,
+              "withinTolerancePct": 33.3
             },
             "2": {
-              "count": 3,
-              "mae": 55.7,
-              "biasAqi": 55.7,
-              "withinTolerancePct": 33.3
+              "count": 4,
+              "mae": 45.8,
+              "biasAqi": 37.8,
+              "withinTolerancePct": 50
             }
           }
         },
@@ -38,16 +38,16 @@
           "label": "North Bend, WA",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 53.8,
-              "biasAqi": 53.8,
-              "withinTolerancePct": 0
+              "count": 5,
+              "mae": 44.2,
+              "biasAqi": 44.2,
+              "withinTolerancePct": 20
             },
             "2": {
-              "count": 3,
-              "mae": 68.7,
-              "biasAqi": 68.7,
-              "withinTolerancePct": 0
+              "count": 4,
+              "mae": 53,
+              "biasAqi": 53,
+              "withinTolerancePct": 25
             }
           }
         },
@@ -55,15 +55,15 @@
           "label": "Cle Elum, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 16.2,
-              "biasAqi": -14.6,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 19.8,
+              "biasAqi": -5.8,
+              "withinTolerancePct": 83.3
             },
             "2": {
-              "count": 3,
-              "mae": 14.3,
-              "biasAqi": 5,
+              "count": 4,
+              "mae": 15.3,
+              "biasAqi": 8.3,
               "withinTolerancePct": 100
             }
           }
@@ -72,16 +72,16 @@
           "label": "Leavenworth, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 26.6,
-              "biasAqi": -26.6,
-              "withinTolerancePct": 60
+              "count": 6,
+              "mae": 23.2,
+              "biasAqi": -21.2,
+              "withinTolerancePct": 66.7
             },
             "2": {
-              "count": 3,
-              "mae": 23.7,
-              "biasAqi": -21.7,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 21,
+              "biasAqi": -19.5,
+              "withinTolerancePct": 75
             }
           }
         },
@@ -89,16 +89,16 @@
           "label": "Vancouver, BC",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 56.6,
-              "biasAqi": 56.6,
-              "withinTolerancePct": 20
+              "count": 6,
+              "mae": 48.5,
+              "biasAqi": 48.5,
+              "withinTolerancePct": 33.3
             },
             "2": {
-              "count": 3,
-              "mae": 88.3,
-              "biasAqi": 88.3,
-              "withinTolerancePct": 33.3
+              "count": 4,
+              "mae": 72.8,
+              "biasAqi": 72.8,
+              "withinTolerancePct": 25
             }
           }
         },
@@ -106,16 +106,16 @@
           "label": "Squamish, BC",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 13.8,
-              "biasAqi": -7.7,
+              "count": 5,
+              "mae": 11.6,
+              "biasAqi": -6.8,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 3,
-              "mae": 41.3,
-              "biasAqi": 33.3,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 33,
+              "biasAqi": 27,
+              "withinTolerancePct": 75
             }
           }
         },
@@ -123,16 +123,16 @@
           "label": "Banff, AB",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 34,
-              "biasAqi": -25.6,
-              "withinTolerancePct": 60
+              "count": 6,
+              "mae": 43.2,
+              "biasAqi": -36.2,
+              "withinTolerancePct": 50
             },
             "2": {
-              "count": 3,
-              "mae": 22.7,
-              "biasAqi": -13.3,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 41.8,
+              "biasAqi": -34.7,
+              "withinTolerancePct": 50
             }
           }
         },
@@ -151,15 +151,15 @@
           "label": "Pinedale, WY",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 6.2,
-              "biasAqi": -3,
+              "count": 6,
+              "mae": 5.7,
+              "biasAqi": -2,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 3,
-              "mae": 5.7,
-              "biasAqi": -5,
+              "count": 4,
+              "mae": 4.5,
+              "biasAqi": -3.5,
               "withinTolerancePct": 100
             }
           }
@@ -185,16 +185,16 @@
           "label": "Mt Hood Skibowl, OR",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 33.7,
-              "biasAqi": 27,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 26.5,
+              "biasAqi": 19,
+              "withinTolerancePct": 75
             },
             "2": {
-              "count": 2,
-              "mae": 24.5,
-              "biasAqi": 24.5,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 18.7,
+              "biasAqi": 14,
+              "withinTolerancePct": 66.7
             }
           }
         },
@@ -219,15 +219,15 @@
           "label": "Minnesota (Cass Lake)",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 4.7,
-              "biasAqi": -2.7,
+              "count": 4,
+              "mae": 7.8,
+              "biasAqi": -6.2,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 2,
-              "mae": 6.5,
-              "biasAqi": -0.5,
+              "count": 3,
+              "mae": 9.3,
+              "biasAqi": -5.3,
               "withinTolerancePct": 100
             }
           }
@@ -237,28 +237,28 @@
     "pirate-weather": {
       "overall": {
         "1": {
-          "count": 50,
-          "mae": 23,
-          "biasAqi": -22.4,
-          "withinTolerancePct": 68
+          "count": 60,
+          "mae": 26.3,
+          "biasAqi": -25.7,
+          "withinTolerancePct": 63.3
         },
         "2": {
-          "count": 39,
-          "mae": 29.8,
-          "biasAqi": -3.1,
-          "withinTolerancePct": 56.4
+          "count": 49,
+          "mae": 30.7,
+          "biasAqi": -9.3,
+          "withinTolerancePct": 53.1
         },
         "3": {
-          "count": 27,
-          "mae": 52.9,
-          "biasAqi": 44.1,
-          "withinTolerancePct": 40.7
+          "count": 37,
+          "mae": 45.5,
+          "biasAqi": 29.6,
+          "withinTolerancePct": 45.9
         },
         "4": {
-          "count": 16,
-          "mae": 44.1,
-          "biasAqi": 32.6,
-          "withinTolerancePct": 62.5
+          "count": 26,
+          "mae": 48.6,
+          "biasAqi": 31.6,
+          "withinTolerancePct": 50
         }
       },
       "locations": {
@@ -266,28 +266,28 @@
           "label": "Bellevue, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 25.8,
-              "biasAqi": -25.8,
-              "withinTolerancePct": 40
-            },
-            "2": {
-              "count": 4,
-              "mae": 35,
-              "biasAqi": -2.5,
-              "withinTolerancePct": 50
-            },
-            "3": {
-              "count": 3,
-              "mae": 56.7,
-              "biasAqi": 56.7,
+              "count": 6,
+              "mae": 31.3,
+              "biasAqi": -31.3,
               "withinTolerancePct": 33.3
             },
+            "2": {
+              "count": 5,
+              "mae": 38,
+              "biasAqi": -12,
+              "withinTolerancePct": 40
+            },
+            "3": {
+              "count": 4,
+              "mae": 57.5,
+              "biasAqi": 27.5,
+              "withinTolerancePct": 25
+            },
             "4": {
-              "count": 2,
-              "mae": 42,
-              "biasAqi": 28,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 43.7,
+              "biasAqi": 3,
+              "withinTolerancePct": 33.3
             }
           }
         },
@@ -295,28 +295,28 @@
           "label": "North Bend, WA",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 12.8,
-              "biasAqi": -12.7,
-              "withinTolerancePct": 100
+              "count": 5,
+              "mae": 17.6,
+              "biasAqi": -17.6,
+              "withinTolerancePct": 80
             },
             "2": {
-              "count": 4,
-              "mae": 27.3,
-              "biasAqi": 6.3,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 27.4,
+              "biasAqi": -0.6,
+              "withinTolerancePct": 60
             },
             "3": {
-              "count": 3,
-              "mae": 66.3,
-              "biasAqi": 66.3,
+              "count": 4,
+              "mae": 59.3,
+              "biasAqi": 40.3,
               "withinTolerancePct": 0
             },
             "4": {
-              "count": 2,
-              "mae": 36.5,
-              "biasAqi": 36.5,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 32.7,
+              "biasAqi": 16,
+              "withinTolerancePct": 33.3
             }
           }
         },
@@ -324,28 +324,28 @@
           "label": "Cle Elum, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 41.6,
-              "biasAqi": -41.6,
-              "withinTolerancePct": 20
+              "count": 6,
+              "mae": 41.7,
+              "biasAqi": -41.7,
+              "withinTolerancePct": 16.7
             },
             "2": {
-              "count": 4,
-              "mae": 45,
-              "biasAqi": 3.5,
-              "withinTolerancePct": 25
+              "count": 5,
+              "mae": 43.4,
+              "biasAqi": -4.6,
+              "withinTolerancePct": 20
             },
             "3": {
-              "count": 3,
-              "mae": 101.7,
-              "biasAqi": 101.7,
-              "withinTolerancePct": 0
+              "count": 4,
+              "mae": 80.5,
+              "biasAqi": 80.5,
+              "withinTolerancePct": 25
             },
             "4": {
-              "count": 2,
-              "mae": 14,
-              "biasAqi": 14,
-              "withinTolerancePct": 100
+              "count": 3,
+              "mae": 27,
+              "biasAqi": 27,
+              "withinTolerancePct": 66.7
             }
           }
         },
@@ -353,28 +353,28 @@
           "label": "Leavenworth, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 45.6,
-              "biasAqi": -45.6,
-              "withinTolerancePct": 20
+              "count": 6,
+              "mae": 45.2,
+              "biasAqi": -45.2,
+              "withinTolerancePct": 16.7
             },
             "2": {
-              "count": 4,
-              "mae": 70.8,
-              "biasAqi": -19.2,
+              "count": 5,
+              "mae": 64.4,
+              "biasAqi": -23.2,
               "withinTolerancePct": 0
             },
             "3": {
-              "count": 3,
-              "mae": 39.7,
-              "biasAqi": -17.7,
-              "withinTolerancePct": 33.3
+              "count": 4,
+              "mae": 40.3,
+              "biasAqi": -23.7,
+              "withinTolerancePct": 25
             },
             "4": {
-              "count": 2,
-              "mae": 28,
-              "biasAqi": 0,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 29.7,
+              "biasAqi": -11,
+              "withinTolerancePct": 33.3
             }
           }
         },
@@ -382,28 +382,28 @@
           "label": "Vancouver, BC",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 22.2,
-              "biasAqi": -22.2,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 25.2,
+              "biasAqi": -25.2,
+              "withinTolerancePct": 83.3
             },
             "2": {
-              "count": 4,
-              "mae": 28.8,
-              "biasAqi": 19.3,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 26.6,
+              "biasAqi": 11.8,
+              "withinTolerancePct": 80
             },
             "3": {
-              "count": 3,
-              "mae": 68.3,
-              "biasAqi": 68.3,
-              "withinTolerancePct": 0
+              "count": 4,
+              "mae": 52,
+              "biasAqi": 52,
+              "withinTolerancePct": 25
             },
             "4": {
-              "count": 2,
-              "mae": 11.5,
-              "biasAqi": 3.5,
-              "withinTolerancePct": 100
+              "count": 3,
+              "mae": 64.3,
+              "biasAqi": 59,
+              "withinTolerancePct": 66.7
             }
           }
         },
@@ -411,28 +411,28 @@
           "label": "Squamish, BC",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 18,
-              "biasAqi": -18,
-              "withinTolerancePct": 50
+              "count": 5,
+              "mae": 24.4,
+              "biasAqi": -24.4,
+              "withinTolerancePct": 40
             },
             "2": {
-              "count": 4,
-              "mae": 25.5,
-              "biasAqi": -21,
-              "withinTolerancePct": 25
+              "count": 5,
+              "mae": 28.8,
+              "biasAqi": -25.2,
+              "withinTolerancePct": 20
             },
             "3": {
-              "count": 3,
-              "mae": 12.3,
-              "biasAqi": 1.7,
+              "count": 4,
+              "mae": 13.3,
+              "biasAqi": -2.7,
               "withinTolerancePct": 100
             },
             "4": {
-              "count": 2,
-              "mae": 21,
-              "biasAqi": -21,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 49.3,
+              "biasAqi": 21.3,
+              "withinTolerancePct": 33.3
             }
           }
         },
@@ -440,28 +440,28 @@
           "label": "Banff, AB",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 31.8,
-              "biasAqi": -31.4,
-              "withinTolerancePct": 60
-            },
-            "2": {
-              "count": 4,
-              "mae": 24.8,
-              "biasAqi": -4.7,
+              "count": 6,
+              "mae": 43,
+              "biasAqi": -42.7,
               "withinTolerancePct": 50
             },
+            "2": {
+              "count": 5,
+              "mae": 39,
+              "biasAqi": -23,
+              "withinTolerancePct": 40
+            },
             "3": {
-              "count": 3,
-              "mae": 117,
-              "biasAqi": 117,
-              "withinTolerancePct": 0
+              "count": 4,
+              "mae": 96.5,
+              "biasAqi": 96.5,
+              "withinTolerancePct": 25
             },
             "4": {
-              "count": 2,
-              "mae": 196.5,
-              "biasAqi": 196.5,
-              "withinTolerancePct": 0
+              "count": 3,
+              "mae": 138.7,
+              "biasAqi": 138.7,
+              "withinTolerancePct": 33.3
             }
           }
         },
@@ -480,27 +480,27 @@
           "label": "Pinedale, WY",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 7.8,
-              "biasAqi": -6.6,
+              "count": 6,
+              "mae": 6.8,
+              "biasAqi": -5.2,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 4,
-              "mae": 4.8,
-              "biasAqi": -2.2,
+              "count": 5,
+              "mae": 4,
+              "biasAqi": -1.6,
               "withinTolerancePct": 100
             },
             "3": {
-              "count": 3,
-              "mae": 6,
-              "biasAqi": 6,
+              "count": 4,
+              "mae": 5,
+              "biasAqi": 5,
               "withinTolerancePct": 100
             },
             "4": {
-              "count": 2,
-              "mae": 3,
-              "biasAqi": 3,
+              "count": 3,
+              "mae": 2.3,
+              "biasAqi": 2.3,
               "withinTolerancePct": 100
             }
           }
@@ -526,21 +526,27 @@
           "label": "Mt Hood Skibowl, OR",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 19.3,
-              "biasAqi": -19.3,
+              "count": 4,
+              "mae": 21,
+              "biasAqi": -21,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 2,
-              "mae": 31.5,
-              "biasAqi": -0.5,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 21.7,
+              "biasAqi": -1,
+              "withinTolerancePct": 66.7
             },
             "3": {
+              "count": 2,
+              "mae": 14,
+              "biasAqi": -7,
+              "withinTolerancePct": 100
+            },
+            "4": {
               "count": 1,
-              "mae": 7,
-              "biasAqi": 7,
+              "mae": 24,
+              "biasAqi": -24,
               "withinTolerancePct": 100
             }
           }
@@ -572,22 +578,28 @@
           "label": "Minnesota (Cass Lake)",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 10,
-              "biasAqi": -10,
+              "count": 4,
+              "mae": 14.5,
+              "biasAqi": -14.5,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 2,
-              "mae": 11,
-              "biasAqi": -11,
+              "count": 3,
+              "mae": 16,
+              "biasAqi": -16,
               "withinTolerancePct": 100
             },
             "3": {
+              "count": 2,
+              "mae": 14,
+              "biasAqi": 9,
+              "withinTolerancePct": 50
+            },
+            "4": {
               "count": 1,
-              "mae": 5,
-              "biasAqi": -5,
-              "withinTolerancePct": 100
+              "mae": 77,
+              "biasAqi": 77,
+              "withinTolerancePct": 0
             }
           }
         }
@@ -596,28 +608,28 @@
     "openweather": {
       "overall": {
         "1": {
-          "count": 50,
-          "mae": 30.6,
-          "biasAqi": 11.6,
-          "withinTolerancePct": 58
+          "count": 60,
+          "mae": 29.5,
+          "biasAqi": 11.7,
+          "withinTolerancePct": 61.7
         },
         "2": {
-          "count": 39,
-          "mae": 30.1,
-          "biasAqi": 19.3,
-          "withinTolerancePct": 53.8
+          "count": 49,
+          "mae": 28.1,
+          "biasAqi": 16.1,
+          "withinTolerancePct": 57.1
         },
         "3": {
-          "count": 27,
-          "mae": 28.1,
-          "biasAqi": 23.2,
-          "withinTolerancePct": 51.9
+          "count": 37,
+          "mae": 26,
+          "biasAqi": 17.9,
+          "withinTolerancePct": 56.8
         },
         "4": {
-          "count": 16,
-          "mae": 26.4,
-          "biasAqi": 26.1,
-          "withinTolerancePct": 62.5
+          "count": 18,
+          "mae": 24.8,
+          "biasAqi": 24.6,
+          "withinTolerancePct": 66.7
         }
       },
       "locations": {
@@ -625,22 +637,22 @@
           "label": "Bellevue, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 15.2,
-              "biasAqi": -4.8,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 15.7,
+              "biasAqi": -7,
+              "withinTolerancePct": 83.3
             },
             "2": {
-              "count": 4,
-              "mae": 15.5,
-              "biasAqi": 4.5,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 17,
+              "biasAqi": -1,
+              "withinTolerancePct": 80
             },
             "3": {
-              "count": 3,
-              "mae": 15.3,
-              "biasAqi": 11.3,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 17.3,
+              "biasAqi": 2.8,
+              "withinTolerancePct": 75
             },
             "4": {
               "count": 2,
@@ -654,22 +666,22 @@
           "label": "North Bend, WA",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 15.5,
-              "biasAqi": 5,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 13.2,
+              "biasAqi": 4.8,
+              "withinTolerancePct": 80
             },
             "2": {
-              "count": 4,
-              "mae": 18.3,
-              "biasAqi": 13.3,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 14.8,
+              "biasAqi": 10.4,
+              "withinTolerancePct": 80
             },
             "3": {
-              "count": 3,
-              "mae": 21,
-              "biasAqi": 21,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 16,
+              "biasAqi": 15.5,
+              "withinTolerancePct": 75
             },
             "4": {
               "count": 2,
@@ -683,22 +695,22 @@
           "label": "Cle Elum, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 20.8,
-              "biasAqi": -12.8,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 22.7,
+              "biasAqi": -5.3,
+              "withinTolerancePct": 83.3
             },
             "2": {
-              "count": 4,
-              "mae": 34,
-              "biasAqi": 17.5,
-              "withinTolerancePct": 50
+              "count": 5,
+              "mae": 28,
+              "biasAqi": 14.8,
+              "withinTolerancePct": 60
             },
             "3": {
-              "count": 3,
-              "mae": 22,
-              "biasAqi": 17.3,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 17.5,
+              "biasAqi": 14,
+              "withinTolerancePct": 75
             },
             "4": {
               "count": 2,
@@ -712,22 +724,22 @@
           "label": "Leavenworth, WA",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 48.6,
-              "biasAqi": -41,
-              "withinTolerancePct": 60
+              "count": 6,
+              "mae": 44,
+              "biasAqi": -30.7,
+              "withinTolerancePct": 66.7
             },
             "2": {
-              "count": 4,
-              "mae": 24.5,
-              "biasAqi": -13,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 20.4,
+              "biasAqi": -9.6,
+              "withinTolerancePct": 80
             },
             "3": {
-              "count": 3,
-              "mae": 23.7,
-              "biasAqi": -8.3,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 18.8,
+              "biasAqi": -5.2,
+              "withinTolerancePct": 75
             },
             "4": {
               "count": 2,
@@ -741,22 +753,22 @@
           "label": "Vancouver, BC",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 14,
-              "biasAqi": 6,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 12.3,
+              "biasAqi": 5.7,
+              "withinTolerancePct": 83.3
             },
             "2": {
-              "count": 4,
-              "mae": 21.8,
-              "biasAqi": 13.3,
-              "withinTolerancePct": 50
+              "count": 5,
+              "mae": 21,
+              "biasAqi": 7,
+              "withinTolerancePct": 60
             },
             "3": {
-              "count": 3,
-              "mae": 25,
-              "biasAqi": 25,
-              "withinTolerancePct": 33.3
+              "count": 4,
+              "mae": 23.3,
+              "biasAqi": 14.3,
+              "withinTolerancePct": 50
             },
             "4": {
               "count": 2,
@@ -770,21 +782,21 @@
           "label": "Squamish, BC",
           "leadDays": {
             "1": {
-              "count": 4,
-              "mae": 11,
-              "biasAqi": -5.5,
+              "count": 5,
+              "mae": 11.2,
+              "biasAqi": -2,
               "withinTolerancePct": 100
             },
             "2": {
-              "count": 4,
-              "mae": 9.3,
-              "biasAqi": -1.2,
+              "count": 5,
+              "mae": 8.2,
+              "biasAqi": -1.8,
               "withinTolerancePct": 100
             },
             "3": {
-              "count": 3,
-              "mae": 12,
-              "biasAqi": 8,
+              "count": 4,
+              "mae": 10,
+              "biasAqi": 5,
               "withinTolerancePct": 100
             },
             "4": {
@@ -799,22 +811,22 @@
           "label": "Banff, AB",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 22,
-              "biasAqi": 6.8,
-              "withinTolerancePct": 80
+              "count": 6,
+              "mae": 25.5,
+              "biasAqi": -1.5,
+              "withinTolerancePct": 66.7
             },
             "2": {
-              "count": 4,
-              "mae": 22.3,
-              "biasAqi": 5.8,
-              "withinTolerancePct": 75
+              "count": 5,
+              "mae": 25.2,
+              "biasAqi": -2.8,
+              "withinTolerancePct": 60
             },
             "3": {
-              "count": 3,
-              "mae": 16,
-              "biasAqi": 16,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 21.3,
+              "biasAqi": 2.8,
+              "withinTolerancePct": 50
             },
             "4": {
               "count": 2,
@@ -839,21 +851,21 @@
           "label": "Pinedale, WY",
           "leadDays": {
             "1": {
-              "count": 5,
-              "mae": 61.2,
-              "biasAqi": 61.2,
+              "count": 6,
+              "mae": 62.5,
+              "biasAqi": 62.5,
               "withinTolerancePct": 0
             },
             "2": {
-              "count": 4,
-              "mae": 62.3,
-              "biasAqi": 62.3,
+              "count": 5,
+              "mae": 63.6,
+              "biasAqi": 63.6,
               "withinTolerancePct": 0
             },
             "3": {
-              "count": 3,
-              "mae": 67.7,
-              "biasAqi": 67.7,
+              "count": 4,
+              "mae": 68,
+              "biasAqi": 68,
               "withinTolerancePct": 0
             },
             "4": {
@@ -885,22 +897,28 @@
           "label": "Mt Hood Skibowl, OR",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 18.7,
-              "biasAqi": 16,
-              "withinTolerancePct": 33.3
+              "count": 4,
+              "mae": 18.5,
+              "biasAqi": 16.5,
+              "withinTolerancePct": 50
             },
             "2": {
-              "count": 2,
-              "mae": 28.5,
-              "biasAqi": 28.5,
-              "withinTolerancePct": 0
+              "count": 3,
+              "mae": 25,
+              "biasAqi": 25,
+              "withinTolerancePct": 33.3
             },
             "3": {
+              "count": 2,
+              "mae": 20,
+              "biasAqi": 20,
+              "withinTolerancePct": 50
+            },
+            "4": {
               "count": 1,
-              "mae": 22,
-              "biasAqi": 22,
-              "withinTolerancePct": 0
+              "mae": 18,
+              "biasAqi": 18,
+              "withinTolerancePct": 100
             }
           }
         },
@@ -931,22 +949,28 @@
           "label": "Minnesota (Cass Lake)",
           "leadDays": {
             "1": {
-              "count": 3,
-              "mae": 25.7,
-              "biasAqi": 25.7,
-              "withinTolerancePct": 66.7
+              "count": 4,
+              "mae": 23.8,
+              "biasAqi": 23.8,
+              "withinTolerancePct": 75
             },
             "2": {
-              "count": 2,
-              "mae": 28,
-              "biasAqi": 28,
-              "withinTolerancePct": 50
+              "count": 3,
+              "mae": 26.3,
+              "biasAqi": 26.3,
+              "withinTolerancePct": 33.3
             },
             "3": {
-              "count": 1,
-              "mae": 35,
-              "biasAqi": 35,
+              "count": 2,
+              "mae": 29,
+              "biasAqi": 29,
               "withinTolerancePct": 0
+            },
+            "4": {
+              "count": 1,
+              "mae": 7,
+              "biasAqi": 7,
+              "withinTolerancePct": 100
             }
           }
         }
