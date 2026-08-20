@@ -63,9 +63,12 @@ The dashboard gains its first meaningful scores only after forecast target dates
 config/sensors.json          Fixed OpenAQ sensor roster and local IANA time zones
 data/forecasts/YYYY-MM-DD.json
 data/actuals/YYYY-MM-DD.json
+data/forecast-history/YYYY-MM-DD/<source>.json
 data/scores/summary.json     Dashboard input
 site/                        Static GitHub Pages dashboard
 ```
+
+Each forecast-history file captures one provider's full hourly forecast response for every sensor, including the UTC time it was obtained. Each actuals file covers one local date and now retains every valid hourly OpenAQ observation, its PM2.5 value, coverage, and derived AQI alongside the daily score value.
 
 Forecast and actual AQI values are generated from PM2.5 with the EPA AQI breakpoints. OpenWeather's five-level AQI category is mapped to its EPA AQI midpoint. A score counts as within tolerance when it is within 20 AQI points or falls in the same EPA AQI category as the observation.
 

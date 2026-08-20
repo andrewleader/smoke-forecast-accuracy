@@ -29,10 +29,20 @@ for (const sensor of sensors) {
   try {
     const response = await fetch(url, { headers: { "X-API-Key": apiKey } });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-    const body = await response.json() as { results?: Array<{ value: number; coverage?: { percentComplete?: number } }> };
-    const values = (body.results ?? []).filter((result) => (result.coverage?.percentComplete ?? 100) > 0).map((result) => result.value);
-    if (values.length < 6) { console.warn(`Skipping ${sensor.label} ${date}: only ${values.length} readings`); continue; }
-    records.push({ sensorId: sensor.id, date, actualAqi: pm25ToAqi(values.reduce((sum, value) => sum + value, 0) / values.length), hoursAveraged: values.length });
+    const body = await response.json() as { results?: Array<{
+      value: number;
+      datetime?: { from?: string };
+      coverage?: { percentComplete?: number };
+    }> };
+    const hours = (body.results ?? []).flatMap((result) => {
+      const coveragePercent = result.coverage?.percentComplete ?? 100;
+      return coveragePercent > 0 && result.datetime?.from
+        ? [{ observedAt: result.datetime.from, pm25: result.value, aqi: pm25ToAqi(result.value), coveragePercent }]
+        : [];
+    });
+    if (hours.length < 6) { console.warn(`Skipping ${sensor.label} ${date}: only ${hours.length} readings`); continue; }
+    const averagePm25 = hours.reduce((sum, hour) => sum + hour.pm25, 0) / hours.length;
+    records.push({ sensorId: sensor.id, date, actualAqi: pm25ToAqi(averagePm25), hoursAveraged: hours.length, hours });
     await writeJson(output, records);
   } catch (error) { console.warn(`Skipping ${sensor.label} ${date}: ${String(error)}`); }
   }

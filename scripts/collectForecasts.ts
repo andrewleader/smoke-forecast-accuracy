@@ -2,7 +2,7 @@ import sensors from "../config/sensors.json" with { type: "json" };
 import { localDate } from "./lib/dates.js";
 import { dailyAverages, fetchSource } from "./lib/providers.js";
 import { dataPath, readJson, writeJson } from "./lib/storage.js";
-import type { ForecastRecord, Source } from "./lib/types.js";
+import type { ForecastHistory, ForecastRecord, Source } from "./lib/types.js";
 
 const issuedAt = new Date();
 const issuedDate = localDate(issuedAt, "America/Los_Angeles");
@@ -10,6 +10,11 @@ const output = dataPath("forecasts", `${issuedDate}.json`);
 const existing = await readJson<ForecastRecord[]>(output, []);
 const keys = new Set(existing.map((record) => `${record.sensorId}:${record.source}:${record.targetDate}`));
 const records = [...existing];
+const history = new Map<Source, ForecastHistory>();
+
+for (const source of ["firesmoke", "pirate-weather", "openweather"] as Source[]) {
+  history.set(source, { source, obtainedAt: issuedAt.toISOString(), issuedDate, sensors: [] });
+}
 
 for (const sensor of sensors) {
   for (const source of ["firesmoke", "pirate-weather", "openweather"] as Source[]) {
@@ -18,7 +23,12 @@ for (const sensor of sensors) {
       continue;
     }
     try {
-      const averages = dailyAverages(await fetchSource(source, sensor), sensor.timeZone);
+      const hours = await fetchSource(source, sensor);
+      history.get(source)?.sensors.push({
+        sensorId: sensor.id,
+        hours: hours.map((hour) => ({ forecastAt: hour.instant.toISOString(), aqi: hour.aqi }))
+      });
+      const averages = dailyAverages(hours, sensor.timeZone);
       for (const [targetDate, forecastAqi] of averages) {
         const leadDays = Math.round((Date.parse(`${targetDate}T12:00:00Z`) - Date.parse(`${issuedDate}T12:00:00Z`)) / 86_400_000);
         const key = `${sensor.id}:${source}:${targetDate}`;
@@ -28,4 +38,7 @@ for (const sensor of sensors) {
   }
 }
 await writeJson(output, records);
+for (const [source, snapshot] of history) {
+  if (snapshot.sensors.length > 0) await writeJson(dataPath("forecast-history", issuedDate, `${source}.json`), snapshot);
+}
 console.log(`Stored ${records.length} forecast records in ${output}`);

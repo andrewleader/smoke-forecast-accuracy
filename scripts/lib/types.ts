@@ -19,11 +19,27 @@ export interface ForecastRecord {
   forecastAqi: number;
 }
 
+export interface ForecastHistory {
+  source: Source;
+  obtainedAt: string;
+  issuedDate: string;
+  sensors: Array<{
+    sensorId: string;
+    hours: Array<{ forecastAt: string; aqi: number }>;
+  }>;
+}
+
 export interface ActualRecord {
   sensorId: string;
   date: string;
   actualAqi: number;
   hoursAveraged: number;
+  hours: Array<{
+    observedAt: string;
+    pm25: number;
+    aqi: number;
+    coveragePercent: number;
+  }>;
 }
 
 export interface ScoreBucket {
