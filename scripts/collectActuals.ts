@@ -16,7 +16,8 @@ for (const sensor of sensors) {
   const dates = [...new Set(forecasts
     .filter((forecast) => forecast.sensorId === sensor.id && forecast.targetDate <= todayLocal && !actualKeys.has(`${sensor.id}:${forecast.targetDate}`))
     .map((forecast) => forecast.targetDate))].sort().reverse();
-  for (const date of dates) {
+  const date = dates[0];
+  if (!date) continue;
 
   const output = dataPath("actuals", `${date}.json`);
   const records = await readJson<ActualRecord[]>(output, []);
@@ -30,13 +31,13 @@ for (const sensor of sensors) {
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const body = await response.json() as { results?: Array<{
       value: number;
-      period?: { datetimeFrom?: { utc?: string } };
+      datetime?: { from?: string };
       coverage?: { percentComplete?: number };
     }> };
     const hours = (body.results ?? []).flatMap((result) => {
       const coveragePercent = result.coverage?.percentComplete ?? 100;
-      return coveragePercent > 0 && result.period?.datetimeFrom?.utc
-        ? [{ observedAt: result.period.datetimeFrom.utc, pm25: result.value, aqi: pm25ToAqi(result.value), coveragePercent }]
+      return coveragePercent > 0 && result.datetime?.from
+        ? [{ observedAt: result.datetime.from, pm25: result.value, aqi: pm25ToAqi(result.value), coveragePercent }]
         : [];
     });
     if (hours.length < 6) { console.warn(`Skipping ${sensor.label} ${date}: only ${hours.length} readings`); continue; }
@@ -44,5 +45,4 @@ for (const sensor of sensors) {
     records.push({ sensorId: sensor.id, date, actualAqi: pm25ToAqi(averagePm25), hoursAveraged: hours.length, hours });
     await writeJson(output, records);
   } catch (error) { console.warn(`Skipping ${sensor.label} ${date}: ${String(error)}`); }
-  }
   }
