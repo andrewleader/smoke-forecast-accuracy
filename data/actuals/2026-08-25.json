@@ -1,0 +1,46 @@
+[
+  {
+    "sensorId": "openaq-8674",
+    "date": "2026-08-25",
+    "actualAqi": 32,
+    "hoursAveraged": 6,
+    "hours": [
+      {
+        "observedAt": "2026-08-25T14:00:00Z",
+        "pm25": 8.1,
+        "aqi": 34,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-25T15:00:00Z",
+        "pm25": 6.9,
+        "aqi": 29,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-25T16:00:00Z",
+        "pm25": 7.4,
+        "aqi": 31,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-25T17:00:00Z",
+        "pm25": 7.4,
+        "aqi": 31,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-25T18:00:00Z",
+        "pm25": 8.1,
+        "aqi": 34,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-25T19:00:00Z",
+        "pm25": 8.3,
+        "aqi": 35,
+        "coveragePercent": 100
+      }
+    ]
+  }
+]
