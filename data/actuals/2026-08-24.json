@@ -1,0 +1,444 @@
+[
+  {
+    "sensorId": "openaq-1369252",
+    "date": "2026-08-24",
+    "actualAqi": 64,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 8.9,
+        "aqi": 37,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 6.2,
+        "aqi": 26,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 6.9,
+        "aqi": 29,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 10.4,
+        "aqi": 43,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 20.1,
+        "aqi": 68,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 27.1,
+        "aqi": 83,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 30.4,
+        "aqi": 89,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 35.8,
+        "aqi": 102,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-2072",
+    "date": "2026-08-24",
+    "actualAqi": 36,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 4,
+        "aqi": 17,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 4.6,
+        "aqi": 19,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 5.8,
+        "aqi": 24,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 6.9,
+        "aqi": 29,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 11.3,
+        "aqi": 47,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 10.6,
+        "aqi": 44,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 13.3,
+        "aqi": 54,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 13.8,
+        "aqi": 55,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-6008",
+    "date": "2026-08-24",
+    "actualAqi": 103,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 83.3,
+        "aqi": 170,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 95.4,
+        "aqi": 179,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 40.3,
+        "aqi": 113,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 14.5,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 14.6,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 14.5,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 14.8,
+        "aqi": 57,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 15,
+        "aqi": 57,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-1376",
+    "date": "2026-08-24",
+    "actualAqi": 103,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 83.3,
+        "aqi": 170,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 95.4,
+        "aqi": 179,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 40.3,
+        "aqi": 113,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 14.5,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 14.6,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 14.5,
+        "aqi": 56,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 14.8,
+        "aqi": 57,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 15,
+        "aqi": 57,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-2836782",
+    "date": "2026-08-24",
+    "actualAqi": 17,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 4.6,
+        "aqi": 19,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 4.3,
+        "aqi": 18,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 4.4,
+        "aqi": 18,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 4.5,
+        "aqi": 19,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 4.1,
+        "aqi": 17,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 3.7,
+        "aqi": 15,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 3.9,
+        "aqi": 16,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 3.9,
+        "aqi": 16,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-8794",
+    "date": "2026-08-24",
+    "actualAqi": 13,
+    "hoursAveraged": 7,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 2,
+        "aqi": 8,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 3,
+        "aqi": 13,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 3,
+        "aqi": 13,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 4,
+        "aqi": 17,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 4,
+        "aqi": 17,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": 3,
+        "aqi": 13,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T23:00:00Z",
+        "pm25": 3,
+        "aqi": 13,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-282",
+    "date": "2026-08-24",
+    "actualAqi": 0,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T15:00:00Z",
+        "pm25": -1.3,
+        "aqi": 0,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": -1.6,
+        "aqi": 0,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": -2.5,
+        "aqi": 0,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": -1.8,
+        "aqi": 0,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": -1.9,
+        "aqi": 0,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 4.6,
+        "aqi": 19,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 3.9,
+        "aqi": 16,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T22:00:00Z",
+        "pm25": -0.8,
+        "aqi": 0,
+        "coveragePercent": 100
+      }
+    ]
+  },
+  {
+    "sensorId": "openaq-8674",
+    "date": "2026-08-24",
+    "actualAqi": 21,
+    "hoursAveraged": 8,
+    "hours": [
+      {
+        "observedAt": "2026-08-24T14:00:00Z",
+        "pm25": 3.1,
+        "aqi": 13,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T15:00:00Z",
+        "pm25": 3.2,
+        "aqi": 13,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T16:00:00Z",
+        "pm25": 4.2,
+        "aqi": 18,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T17:00:00Z",
+        "pm25": 5,
+        "aqi": 21,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T18:00:00Z",
+        "pm25": 5.1,
+        "aqi": 21,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T19:00:00Z",
+        "pm25": 6.5,
+        "aqi": 27,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T20:00:00Z",
+        "pm25": 6.8,
+        "aqi": 28,
+        "coveragePercent": 100
+      },
+      {
+        "observedAt": "2026-08-24T21:00:00Z",
+        "pm25": 6.1,
+        "aqi": 25,
+        "coveragePercent": 100
+      }
+    ]
+  }
+]
