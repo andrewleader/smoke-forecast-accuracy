@@ -2,8 +2,16 @@ name: Collect and publish smoke accuracy
 
 on:
   schedule:
-    #  6:07pm Pacific time.
-    - cron: "7 18 * * *"
+    # July 4–31 at 6:07 PM Pacific
+    - cron: "7 18 4-31 7 *"
+      timezone: America/Los_Angeles
+
+    # All of August at 6:07 PM Pacific
+    - cron: "7 18 * 8 *"
+      timezone: America/Los_Angeles
+
+    # September 1–10 at 6:07 PM Pacific
+    - cron: "7 18 1-10 9 *"
       timezone: America/Los_Angeles
   workflow_dispatch:
 
